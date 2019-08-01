@@ -1127,5 +1127,36 @@
                 { "id": "steel_pipe", "quantity": 4 }
             ]
         },
+        {
+            "product": "gasmask",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "rubber", "quantity": 100 },
+                { "id": "plastic", "quantity": 100 },
+                { "id": "fabric", "quantity": 100 }
+            ]
+        },
+        {
+            "product": "filter",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "coal", "quantity": 5 },
+                { "id": "rubber", "quantity": 2 },
+                { "id": "fabric", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "jetpack",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "plastic", "quantity": 50 },
+                { "id": "circuit_board", "quantity": 15 },
+                { "id": "rubber", "quantity": 50 },
+                { "id": "cable", "quantity": 25 }
+            ]
+        },
     ]
 }
