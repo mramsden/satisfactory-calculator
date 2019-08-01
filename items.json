@@ -978,6 +978,44 @@
                 { "id": "wire", "quantity": 50 },
                 { "id": "cable", "quantity": 15 }
             ]
+        },
+        {
+            "product": "chainsaw",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_rod", "quantity": 25 },
+                { "id": "reinforced_iron_plate", "quantity": 10 },
+                { "id": "screw", "quantity": 160 },
+                { "id": "cable", "quantity": 15 }
+            ]
+        },
+        {
+            "product": "color_gun",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_plate", "quantity": 5 },
+                { "id": "screw", "quantity": 80 },
+                { "id": "wire", "quantity": 40 }
+            ]
+        },
+        {
+            "product": "color_cartridge",
+            "alternate": false,
+            "quantity": 50,
+            "ingredients": [
+                { "id": "flower_petals", "quantity": 25 }
+            ]
+        },
+        {
+            "product": "parachute",
+            "alternate": false,
+            "quantity": 5,
+            "ingredients": [
+                { "id": "fabric", "quantity": 10 },
+                { "id": "cable", "quantity": 5 }
+            ]
         }
     ]
 }
