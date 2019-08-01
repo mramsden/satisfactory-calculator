@@ -446,6 +446,181 @@
                 { "id": "caterium_ingot", "quantity": 1 },
                 { "id": "copper_ingot", "quantity": 2 }
             ]
+        },
+        {
+            "product": "black_powder",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "coal", "quantity": 1 },
+                { "id": "sulfur", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "black_powder",
+            "alternate": true,
+            "quantity": 4,
+            "ingredients": [
+                { "id": "compacted_coal", "quantity": 1 },
+                { "id": "sulfur", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "compacted_coal",
+            "alternate": false,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "coal", "quantity": 3 },
+                { "id": "sulfur", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "crystal_oscillator",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "quartz_crystal", "quantity": 10 },
+                { "id": "cable", "quantity": 14 },
+                { "id": "reinforced_iron_plate", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "crystal_oscillator",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "quartz_crystal", "quantity": 20 },
+                { "id": "rubber", "quantity": 24 },
+                { "id": "ai_limiter", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "encased_industrial_beam",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "steel_beam", "quantity": 4 },
+                { "id": "concrete", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "encased_industrial_beam",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "steel_pipe", "quantity": 18 },
+                { "id": "concrete", "quantity": 10 }
+            ]
+        },
+        {
+            "product": "heavy_module_frame",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "modular_frame", "quantity": 5 },
+                { "id": "steel_pipe", "quantity": 15 },
+                { "id": "encased_industrial_beam", "quantity": 5 },
+                { "id": "screw", "quantity": 90 }
+            ]
+        },
+        {
+            "product": "heavy_module_frame",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "modular_frame", "quantity": 8 },
+                { "id": "steel_pipe", "quantity": 36 },
+                { "id": "encased_industrial_beam", "quantity": 10 },
+                { "id": "concrete", "quantity": 25 }
+            ]
+        },
+        {
+            "product": "motor",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "rotor", "quantity": 2 },
+                { "id": "stator", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "motor",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "rotor", "quantity": 2 },
+                { "id": "stator", "quantity": 2 },
+                { "id": "crystal_oscillator", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "quartz_crystal",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "raw_quartz", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "stator",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "steel_pipe", "quantity": 3 },
+                { "id": "wire", "quantity": 10 }
+            ]
+        },
+        {
+            "product": "stator",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "steel_pipe", "quantity": 6 },
+                { "id": "quickwire", "quantity": 20 }
+            ]
+        },
+        {
+            "product": "steel_beam",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "steel_ingot", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "steel_ingot",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "iron_ore", "quantity": 3 },
+                { "id": "coal", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "steel_ingot",
+            "alternate": true,
+            "quantity": 6,
+            "ingredients": [
+                { "id": "iron_ore", "quantity": 6 },
+                { "id": "compacted_coal", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "steel_ingot",
+            "alternate": false,
+            "quantity": 6,
+            "ingredients": [
+                { "id": "iron_ingot", "quantity": 3 },
+                { "id": "coal", "quantity": 6 }
+            ]
+        },
+        {
+            "product": "steel_pipe",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "steel_ingot", "quantity": 1 }
+            ]
         }
     ]
 }
