@@ -715,6 +715,269 @@
                 { "id": "silica", "quantity": 48 },
                 { "id": "rubber", "quantity": 18 }
             ]
+        },
+        {
+            "product": "plastic",
+            "alternate": false,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "crude_oil", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "plastic",
+            "alternate": true,
+            "quantity": 9,
+            "ingredients": [
+                { "id": "rubber", "quantity": 8 },
+                { "id": "fuel", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "rubber",
+            "alternate": false,
+            "quantity": 4,
+            "ingredients": [
+                { "id": "crude_oil", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "supercomputer",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "computer", "quantity": 2 },
+                { "id": "ai_limiter", "quantity": 2 },
+                { "id": "high_speed_connector", "quantity": 3 },
+                { "id": "plastic", "quantity": 21 }
+            ]
+        },
+        {
+            "product": "turbofuel",
+            "alternate": true,
+            "quantity": 5,
+            "ingredients": [
+                { "id": "fuel", "quantity": 5 },
+                { "id": "compacted_coal", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "alclad_aluminium_sheet",
+            "alternate": false,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "aluminium_ingot", "quantity": 3 },
+                { "id": "copper_ingot", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "aluminium_ingot",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "bauxite", "quantity": 7 },
+                { "id": "silica", "quantity": 6 }
+            ]
+        },
+        {
+            "product": "battery",
+            "alternate": false,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "alclad_aluminium_sheet", "quantity": 8 },
+                { "id": "wire", "quantity": 24 },
+                { "id": "sulfur", "quantity": 20 },
+                { "id": "plastic", "quantity": 9 }
+            ]
+        },
+        {
+            "product": "electromagnetic_control_rod",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "stator", "quantity": 3 },
+                { "id": "ai_limiter", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "electromagnetic_control_rod",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "stator", "quantity": 6 },
+                { "id": "high_speed_connector", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "heat_sink",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "alclad_aluminium_sheet", "quantity": 4 },
+                { "id": "rubber", "quantity": 10 }
+            ]
+        },
+        {
+            "product": "heat_sink",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "alclad_aluminium_sheet", "quantity": 8 },
+                { "id": "wire", "quantity": 36 }
+            ]
+        },
+        {
+            "product": "nuclear_fuel_rod",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "uranium_cell", "quantity": 25 },
+                { "id": "encased_industrial_beam", "quantity": 3 },
+                { "id": "electromagnetic_control_rod", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "nuclear_fuel_rod",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "uranium_cell", "quantity": 50 },
+                { "id": "electromagntic_control_rod", "quantity": 10 },
+                { "id": "crystal_oscillator", "quantity": 3 },
+                { "id": "beacon", "quantity": 6 }
+            ]
+        },
+        {
+            "product": "radio_control_unit",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "heat_sink", "quantity": 4 },
+                { "id": "rubber", "quantity": 24 },
+                { "id": "crystal_oscillator", "quantity": 1 },
+                { "id": "computer", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "radio_control_unit",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "heat_sink", "quantity": 10 },
+                { "id": "supercomputer", "quantity": 1 },
+                { "id": "quantum_crystal", "quantity": 30 },
+            ]
+        },
+        {
+            "product": "silica",
+            "alternate": false,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "raw_quartz", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "silica",
+            "alternate": true,
+            "quantity": 9,
+            "ingredients": [
+                { "id": "raw_quartz", "quantity": 4 },
+                { "id": "limestone", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "turbo_motor",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "heat_sink", "quantity": 4 },
+                { "id": "radio_control_unit", "quantity": 2 },
+                { "id": "motor", "quantity": 4 },
+                { "id": "rubber", "quantity": 40 }
+            ]
+        },
+        {
+            "product": "turbo_motor",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "motor", "quantity": 8 },
+                { "id": "radio_control_unit", "quantity": 4 },
+                { "id": "ai_limiter", "quantity": 8 },
+                { "id": "stator", "quantity": 8 }
+            ]
+        },
+        {
+            "product": "uranium_cell",
+            "alternate": false,
+            "quantity": 10,
+            "ingredients": [
+                { "id": "uranium", "quantity": 45 },
+                { "id": "concrete", "quantity": 9 }
+            ]
+        },
+        {
+            "product": "uranium_cell",
+            "alternate": true,
+            "quantity": 35,
+            "ingredients": [
+                { "id": "uranium", "quantity": 45 },
+                { "id": "sulfur", "quantity": 45 },
+                { "id": "silica", "quantity": 45 },
+                { "id": "quickwire", "quantity": 60 }
+            ]
+        },
+        {
+            "product": "beacon",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_plate", "quantity": 3 },
+                { "id": "iron_rod", "quantity": 1 },
+                { "id": "wire", "quantity": 15 },
+                { "id": "cable", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "beacon",
+            "alternate": true,
+            "quantity": 5,
+            "ingredients": [
+                { "id": "steel_beam", "quantity": 1 },
+                { "id": "steel_pipe", "quantity": 4 },
+                { "id": "crystal_oscillator", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "object_scanner",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "reinforced_iron_plate", "quantity": 4 },
+                { "id": "beacon", "quantity": 3 },
+                { "id": "screw", "quantity": 50 }
+            ]
+        },
+        {
+            "product": "portable_miner",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_plate", "quantity": 4 },
+                { "id": "wire", "quantity": 8 },
+                { "id": "cable", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "xeno_zapper",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_rod", "quantity": 10 },
+                { "id": "reinforced_iron_plate", "quantity": 2 },
+                { "id": "wire", "quantity": 50 },
+                { "id": "cable", "quantity": 15 }
+            ]
         }
     ]
 }
