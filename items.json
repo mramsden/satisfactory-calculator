@@ -1065,6 +1065,47 @@
             "ingredients": [
                 { "id": "iron_rod", "quantity": 1 }
             ]
-        }
+        },
+        {
+            "product": "nobelisk_detonator",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "object_scanner", "quantity": 5 },
+                { "id": "encased_industrial_beam", "quantity": 10 },
+                { "id": "cable", "quantity": 50 }
+            ]
+        },
+        {
+            "product": "nobelisk",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "black_powder", "quantity": 5 },
+                { "id": "steel_pipe", "quantity": 5 },
+                { "id": "beacon", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "nobelisk",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "black_powder", "quantity": 10 },
+                { "id": "steel_pipe", "quantity": 10 },
+                { "id": "crystal_oscillator", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "xeno_basher",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "modular_frame", "quantity": 5 },
+                { "id": "xeno_zapper", "quantity": 2 },
+                { "id": "cable", "quantity": 25 },
+                { "id": "wire", "quantity": 500 }
+            ]
+        },
     ]
 }
