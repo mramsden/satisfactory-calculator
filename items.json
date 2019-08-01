@@ -607,7 +607,7 @@
         },
         {
             "product": "steel_ingot",
-            "alternate": false,
+            "alternate": true,
             "quantity": 6,
             "ingredients": [
                 { "id": "iron_ingot", "quantity": 3 },
@@ -620,6 +620,100 @@
             "quantity": 1,
             "ingredients": [
                 { "id": "steel_ingot", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "ai_limiter",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "circuit_board", "quantity": 2 },
+                { "id": "quickwire", "quantity": 18 }
+            ]
+        },
+        {
+            "product": "circuit_board",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "wire", "quantity": 12 },
+                { "id": "plastic", "quantity": 6 }
+            ]
+        },
+        {
+            "product": "circuit_board",
+            "alternate": true,
+            "quantity": 6,
+            "ingredients": [
+                { "id": "rubber", "quantity": 16 },
+                { "id": "wire", "quantity": 24 }
+            ]
+        },
+        {
+            "product": "circuit_board",
+            "alternate": true,
+            "quantity": 6,
+            "ingredients": [
+                { "id": "plastic", "quantity": 12 },
+                { "id": "quickwire", "quantity": 24 }
+            ]
+        },
+        {
+            "product": "computer",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "circuit_board", "quantity": 10 },
+                { "id": "cable", "quantity": 12 },
+                { "id": "plastic", "quantity": 18 },
+                { "id": "screw", "quantity": 60 }
+            ]
+        },
+        {
+            "product": "computer",
+            "alternate": true,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "circuit_board", "quantity": 4 },
+                { "id": "crystal_oscillator", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "computer",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "circuit_board", "quantity": 20 },
+                { "id": "quickwire", "quantity": 80 },
+                { "id": "rubber", "quantity": 48 }
+            ]
+        },
+        {
+            "product": "fuel",
+            "alternate": false,
+            "quantity": 5,
+            "ingredients": [
+                { "id": "crude_oil", "quantity": 8 }
+            ]
+        },
+        {
+            "product": "high_speed_connector",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "quickwire", "quantity": 40 },
+                { "id": "cable", "quantity": 10 },
+                { "id": "plastic", "quantity": 6 }
+            ]
+        },
+        {
+            "product": "high_speed_connector",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "quickwire", "quantity": 66 },
+                { "id": "silica", "quantity": 48 },
+                { "id": "rubber", "quantity": 18 }
             ]
         }
     ]
