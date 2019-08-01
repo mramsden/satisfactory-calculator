@@ -1158,5 +1158,26 @@
                 { "id": "cable", "quantity": 25 }
             ]
         },
+        {
+            "product": "hazmat_suit",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "rubber", "quantity": 50 },
+                { "id": "plastic", "quantity": 50 },
+                { "id": "alclad_aluminium_sheet", "quantity": 50 },
+                { "id": "fabric", "quantity": 50 }
+            ]
+        },
+        {
+            "product": "iodine_infused_filter",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "filter", "quantity": 1 },
+                { "id": "quickwire", "quantity": 8 },
+                { "id": "rubber", "quantity": 2 }
+            ]
+        },
     ]
 }
