@@ -1,0 +1,451 @@
+{
+    "items": [
+        { "id": "bauxite", "name": "Bauxite" },
+        { "id": "caterium_ore", "name": "Caterium Ore" },
+        { "id": "coal", "name": "Coal" },
+        { "id": "copper_ore", "name": "Copper Ore" },
+        { "id": "crude_oil", "name": "Crude Oil" },
+        { "id": "iron_ore", "name": "Iron Ore" },
+        { "id": "limestone", "name": "Limestone" },
+        { "id": "raw_quartz", "name": "Raw Quartz" },
+        { "id": "sam_ore", "name": "S.A.M. Ore" },
+        { "id": "sulfur", "name": "Sulfur" },
+        { "id": "uranium", "name": "Uranium" },
+        { "id": "alien_carapace", "name": "Alien Carapace" },
+        { "id": "alien_organs", "name": "Alien Organs" },
+        { "id": "flower_petals", "name": "Flower Petals" },
+        { "id": "leaves", "name": "Leaves" },
+        { "id": "mycelia", "name": "Mycelia" },
+        { "id": "power_slug_green", "name": "Green Power Slug" },
+        { "id": "power_slug_yellow", "name": "Yellow Power Slug" },
+        { "id": "power_slug_purple", "name": "Purple Power Slug" },
+        { "id": "wood", "name": "Wood" },
+        { "id": "bacon_agaric", "name": "Bacon Agaric" },
+        { "id": "beryl_nut", "name": "Beryl Nut" },
+        { "id": "paleberry", "name": "Paleberry" },
+        { "id": "biomass_leaves", "name": "Biomass (Leaves)" },
+        { "id": "biomass_mycelia", "name": "Biomass (Mycelia)" },
+        { "id": "biomass_wood", "name": "Biomass (Wood)" },
+        { "id": "cable", "name": "Cable" },
+        { "id": "concrete", "name": "Concrete" },
+        { "id": "copper_ingot", "name": "Copper Ingot" },
+        { "id": "iron_ingot", "name": "Iron Ingot" },
+        { "id": "iron_plate", "name": "Iron Plate" },
+        { "id": "iron_rod", "name": "Iron Rod" },
+        { "id": "reinforced_iron_plate", "name": "Reinforced Iron Plate" },
+        { "id": "screw", "name": "Screw" },
+        { "id": "wire", "name": "Wire" },
+        { "id": "biofuel", "name": "Biofuel" },
+        { "id": "fabric", "name": "Fabric" },
+        { "id": "power_shard", "name": "Power Shard" },
+        { "id": "modular_frame", "name": "Modular Frame" },
+        { "id": "rotor", "name": "Rotor" },
+        { "id": "biomass_alien_carapace", "name": "Biomass (Alien Carapace)" },
+        { "id": "caterium_ingot", "name": "Caterium Ingot" },
+        { "id": "quickwire", "name": "Quickwire" },
+        { "id": "black_powder", "name": "Black Powder" },
+        { "id": "compacted_coal", "name": "Compacted Coal" },
+        { "id": "crystal_oscillator", "name": "Crystal Oscillator" },
+        { "id": "encased_industrial_beam", "name": "Encased Industrial Beam" },
+        { "id": "heavy_modular_frame", "name": "Heavy Modular Frame" },
+        { "id": "motor", "name": "Motor" },
+        { "id": "quartz_crystal", "name": "Quartz Crystal" },
+        { "id": "stator", "name": "Stator" },
+        { "id": "steel_beam", "name": "Steel Beam" },
+        { "id": "steel_ingot", "name": "Steel Ingot" },
+        { "id": "steel_pipe", "name": "Steel Pipe" },
+        { "id": "ai_limiter", "name": "A.I. Limiter" },
+        { "id": "circuit_board", "name": "Circuit Board" },
+        { "id": "computer", "name": "Computer" },
+        { "id": "fuel", "name": "Fuel" },
+        { "id": "high_speed_connector", "name": "High-Speed Connector" },
+        { "id": "plastic", "name": "Plastic" },
+        { "id": "rubber", "name": "Rubber" },
+        { "id": "supercomputer", "name": "Supercomputer" },
+        { "id": "turbofuel", "name": "Turbofuel" },
+        { "id": "alclad_aluminium_sheet", "name": "Alclad Aluminium Sheet" },
+        { "id": "aluminium_ingot", "name": "Aluminium Ingot" },
+        { "id": "battery", "name": "Battery" },
+        { "id": "electromagnetic_control_rod", "name": "Electromagnetic Control Rod" },
+        { "id": "heat_sink", "name": "Heat Sink" },
+        { "id": "nuclear_fuel_rod", "name": "Nuclear Fuel Rod" },
+        { "id": "nuclear_waste", "name": "Nuclear Waste" },
+        { "id": "radio_control_unit", "name": "Radio Control Unit" },
+        { "id": "silica", "name": "Silica" },
+        { "id": "turbo_motor", "name": "Turbo Motor" },
+        { "id": "uranium_cell", "name": "Uranium Cell" },
+        { "id": "quantum_crystal", "name": "Quantum Crystal" },
+        { "id": "quantum_computer", "name": "Quantum Computer" },
+        { "id": "superposition_oscillator", "name": "Superposition Oscillator" },
+        { "id": "beacon", "name": "Beacon" },
+        { "id": "object_scanner", "name": "Object Scanner" },
+        { "id": "portable_miner", "name": "Portable Miner" },
+        { "id": "xeno_zapper", "name": "Xeno-Zapper" },
+        { "id": "chainsaw", "name": "Chainsaw" },
+        { "id": "color_gun", "name": "Color Gun" },
+        { "id": "color_cartridge", "name": "Color Cartridge" },
+        { "id": "parachute", "name": "Parachute" },
+        { "id": "blade_runners", "name": "Blade Runners" },
+        { "id": "medicinal_inhaler", "name": "Medicinal Inhaler" },
+        { "id": "rebar_gun", "name": "Rebar Gun" },
+        { "id": "spiked_rebar", "name": "Spiked Rebar" },
+        { "id": "nobelisk_detenator", "name": "Nobelisk" },
+        { "id": "xeno_basher", "name": "Xeno-Basher" },
+        { "id": "rifle", "name": "Rifle" },
+        { "id": "cartridge", "name": "Cartridge" },
+        { "id": "gasmask", "name": "Gasmask" },
+        { "id": "filter", "name": "Filter" },
+        { "id": "jetpack", "name": "Jetpack" },
+        { "id": "hazmat_suit", "name": "Hazmat Suit" },
+        { "id": "iodine_infused_filter", "name": "Iodine Infused Filter" },
+        { "id": "heat_resistant_suit", "name": "Heat Resistant Suit" },
+        { "id": "rebar_scatter_gun", "name": "Rebar Scatter Gun" },
+        { "id": "rifle_mk_2", "name": "Rifle Mk. 2" }
+    ],
+    "recipes": [
+        {
+            "product": "biomass_leaves",
+            "alternate": false,
+            "quantity": 6,
+            "ingredients": [
+                { "id": "leaves", "quantity": 10 }
+            ]
+        },
+        {
+            "product": "biomass_wood",
+            "alternate": false,
+            "quantity": 25,
+            "ingredients": [
+                { "id": "wood", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "biomass_mycelia",
+            "alternate": false,
+            "quantity": 10,
+            "ingredients": [
+                { "id": "mycelia", "quantity": 10 }
+            ]
+        },
+        {
+            "product": "biomass_alien_carapace",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "alien_carapace", "quantity": 100 }
+            ]
+        },
+        {
+            "product": "cable",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "wire", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "cable",
+            "alternate": true,
+            "quantity": 10,
+            "ingredients": [
+                { "id": "wire", "quantity": 3 },
+                { "id": "rubber", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "cable",
+            "alternate": true,
+            "quantity": 12,
+            "ingredients": [
+                { "id": "quickwire", "quantity": 4 },
+                { "id": "rubber", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "concrete",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "limestone", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "concrete",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "silica", "quantity": 1 },
+                { "id": "limestone", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "copper_ingot",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "copper_ore", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "iron_ingot",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_ore", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "iron_ingot",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "iron_ore", "quantity": 1 },
+                { "id": "copper_ore", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "iron_plate",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_ingot", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "iron_rod",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_ingot", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "reinforced_iron_plate",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_plate", "quantity": 4 },
+                { "id": "screw", "quantity": 24 }
+            ]
+        },
+        {
+            "product": "reinforced_iron_plate",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "iron_plate", "quantity": 10 },
+                { "id": "screw", "quantity": 24 }
+            ]
+        },
+        {
+            "product": "reinforced_iron_plate",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "iron_plate", "quantity": 6 },
+                { "id": "wire", "quantity": 30 }
+            ]
+        },
+        {
+            "product": "screw",
+            "alternate": false,
+            "quantity": 6,
+            "ingredients": [
+                { "id": "iron_rod", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "screw",
+            "alternate": true,
+            "quantity": 12,
+            "ingredients": [
+                { "id": "iron_ingot", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "screw",
+            "alternate": true,
+            "quantity": 36,
+            "ingredients": [
+                { "id": "steel_beam", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "wire",
+            "alternate": false,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "copper_ingot", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "wire",
+            "alternate": true,
+            "quantity": 9,
+            "ingredients": [
+                { "id": "iron_ingot", "quantity": 2 }
+            ]
+        },
+        {
+            "product": "wire",
+            "alternate": true,
+            "quantity": 9,
+            "ingredients": [
+                { "id": "caterium_ingot", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "biofuel",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "biomass_leaves", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "biofuel",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "biomass_wood", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "biofuel",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "biomass_mycelia", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "biofuel",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "biomass_alien_carapace", "quantity": 4 }
+            ]
+        },
+        {
+            "product": "fabric",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "mycelia", "quantity": 1 },
+                { "id": "biomass_leaves", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "fabric",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "mycelia", "quantity": 1 },
+                { "id": "biomass_wood", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "fabric",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "mycelia", "quantity": 1 },
+                { "id": "biomass_mycelia", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "fabric",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "mycelia", "quantity": 1 },
+                { "id": "biomass_alien_carapace", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "power_shard",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "power_slug_green", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "power_shard",
+            "alternate": false,
+            "quantity": 2,
+            "ingredients": [
+                { "id": "power_slug_yellow", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "power_shard",
+            "alternate": false,
+            "quantity": 5,
+            "ingredients": [
+                { "id": "power_slug_purple", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "modular_frame",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "reinforced_iron_plate", "quantity": 3 },
+                { "id": "iron_rod", "quantity": 6 }
+            ]
+        },
+        {
+            "product": "modular_frame",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "reinforced_iron_plate", "quantity": 6 },
+                { "id": "steel_pipe", "quantity": 6 }
+            ]
+        },
+        {
+            "product": "rotor",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_rod", "quantity": 3 },
+                { "id": "screw", "quantity": 22 }
+            ]
+        },
+        {
+            "product": "rotor",
+            "alternate": true,
+            "quantity": 3,
+            "ingredients": [
+                { "id": "steel_pipe", "quantity": 6 },
+                { "id": "wire", "quantity": 20 }
+            ]
+        },
+        {
+            "product": "caterium_ingot",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "caterium_ore", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "quickwire",
+            "alternate": false,
+            "quantity": 4,
+            "ingredients": [
+                { "id": "caterium_ingot", "quantity": 1 }
+            ]
+        },
+        {
+            "product": "quickwire",
+            "alternate": true,
+            "quantity": 12,
+            "ingredients": [
+                { "id": "caterium_ingot", "quantity": 1 },
+                { "id": "copper_ingot", "quantity": 2 }
+            ]
+        }
+    ]
+}
