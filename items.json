@@ -87,6 +87,7 @@
         { "id": "parachute", "name": "Parachute" },
         { "id": "blade_runners", "name": "Blade Runners" },
         { "id": "medicinal_inhaler", "name": "Medicinal Inhaler" },
+        { "id": "medicinal_inhaler_alien_organs", "name": "Medicinal Inhaler: Alien Organs" },
         { "id": "rebar_gun", "name": "Rebar Gun" },
         { "id": "spiked_rebar", "name": "Spiked Rebar" },
         { "id": "nobelisk_detenator", "name": "Nobelisk" },
@@ -865,7 +866,7 @@
             "ingredients": [
                 { "id": "heat_sink", "quantity": 10 },
                 { "id": "supercomputer", "quantity": 1 },
-                { "id": "quantum_crystal", "quantity": 30 },
+                { "id": "quantum_crystal", "quantity": 30 }
             ]
         },
         {
@@ -1015,6 +1016,54 @@
             "ingredients": [
                 { "id": "fabric", "quantity": 10 },
                 { "id": "cable", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "blade_runners",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "quickwire", "quantity": 50 },
+                { "id": "modular_frame", "quantity": 3 },
+                { "id": "rotor", "quantity": 3 }
+            ]
+        },
+        {
+            "product": "medicinal_inhaler",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "bacon_agaric", "quantity": 1 },
+                { "id": "paleberry", "quantity": 2 },
+                { "id": "beryl_nut", "quantity": 3 },
+                { "id": "mycelia", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "medicinal_inhaler_alien_organs",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "alien_organs", "quantity": 3 },
+                { "id": "mycelia", "quantity": 5 }
+            ]
+        },
+        {
+            "product": "rebar_gun",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "reinforced_iron_plate", "quantity": 6 },
+                { "id": "iron_rod", "quantity": 16 },
+                { "id": "screw", "quantity": 100 }
+            ]
+        },
+        {
+            "product": "spiked_rebar",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "iron_rod", "quantity": 1 }
             ]
         }
     ]
