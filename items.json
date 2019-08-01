@@ -1107,5 +1107,25 @@
                 { "id": "wire", "quantity": 500 }
             ]
         },
+        {
+            "product": "rifle",
+            "alternate": false,
+            "quantity": 1,
+            "ingredients": [
+                { "id": "steel_pipe", "quantity": 25 },
+                { "id": "heavy_modular_frame", "quantity": 3 },
+                { "id": "circuit_board", "quantity": 20 },
+                { "id": "screw", "quantity": 250 }
+            ]
+        },
+        {
+            "product": "cartridge",
+            "alternate": false,
+            "quantity": 4,
+            "ingredients": [
+                { "id": "nobelisk", "quantity": 1 },
+                { "id": "steel_pipe", "quantity": 4 }
+            ]
+        },
     ]
 }
