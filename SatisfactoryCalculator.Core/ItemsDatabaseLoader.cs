@@ -11,9 +11,10 @@ namespace SatisfactoryCalculator.Core
         internal static ItemsDatabase Load()
         {
             var assembly = Assembly.GetAssembly(typeof(ItemsDatabaseLoader));
-            using (var itemsFileStream = assembly.GetManifestResourceStream(RESOURCE_NAME)) {
+            using (var itemsFileStream = assembly.GetManifestResourceStream(RESOURCE_NAME))
+            {
                 var serializer = new DataContractJsonSerializer(typeof(ItemsDatabase));
-                return (ItemsDatabase) serializer.ReadObject(itemsFileStream);
+                return (ItemsDatabase)serializer.ReadObject(itemsFileStream);
             }
         }
     }
