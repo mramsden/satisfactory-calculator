@@ -98,10 +98,7 @@
         { "id": "filter", "name": "Filter" },
         { "id": "jetpack", "name": "Jetpack" },
         { "id": "hazmat_suit", "name": "Hazmat Suit" },
-        { "id": "iodine_infused_filter", "name": "Iodine Infused Filter" },
-        { "id": "heat_resistant_suit", "name": "Heat Resistant Suit" },
-        { "id": "rebar_scatter_gun", "name": "Rebar Scatter Gun" },
-        { "id": "rifle_mk_2", "name": "Rifle Mk. 2" }
+        { "id": "iodine_infused_filter", "name": "Iodine Infused Filter" }
     ],
     "recipes": [
         {

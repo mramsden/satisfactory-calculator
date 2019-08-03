@@ -34,8 +34,33 @@ namespace SatisfactoryCalculator.UWP.ViewModels
             }
         }
 
+        private int selectedIndex = -1;
+        public int SelectedIndex
+        {
+            get { return selectedIndex; }
+            set
+            {
+                if (SetProperty(ref selectedIndex, value))
+                {
+                    RaisePropertyChanged(nameof(SelectedItem));
+                }
+            }
+        }
+
+        public ItemViewModel SelectedItem
+        {
+            get {
+                if (selectedIndex > -1)
+                {
+                    return currentItems[selectedIndex];
+                }
+                return null;
+            }
+        }
+
         private void setCurrentItems(IEnumerable<Item> currentItems)
         {
+            SelectedIndex = -1;
             this.currentItems.Clear();
             foreach (var item in currentItems.OrderBy(item => item.Name))
             {

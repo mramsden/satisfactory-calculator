@@ -1,5 +1,6 @@
 ﻿using SatisfactoryCalculator.Core;
 using SatisfactoryCalculator.UWP.ViewModels;
+using System.Diagnostics;
 using Windows.UI.Xaml.Controls;
 
 namespace SatisfactoryCalculator.UWP
