@@ -20,7 +20,10 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <TextBox Grid.Row="0" PlaceholderText="Search items"/>
+            <TextBox x:Name="SearchTermTextBox"
+                     Grid.Row="0"
+                     PlaceholderText="Search items"
+                     Text="{x:Bind Items.SearchTerm, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
             <ListView x:Name="ItemsList"
                       Grid.Row="1"
                       ItemsSource="{x:Bind Items.CurrentItems, Mode=OneWay}">
