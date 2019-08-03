@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace SatisfactoryCalculator.Core
 {
@@ -19,6 +20,13 @@ namespace SatisfactoryCalculator.Core
             }
 
             return ((Item)obj).Id.Equals(Id);
+        }
+
+        public override int GetHashCode()
+        {
+            var hashCode = -1919740922;
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Id);
+            return hashCode;
         }
     }
 }
