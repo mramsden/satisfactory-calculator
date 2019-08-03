@@ -2,16 +2,31 @@
     x:Class="SatisfactoryCalculator.UWP.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:SatisfactoryCalculator.UWP"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:SatisfactoryCalculator.UWP.ViewModels"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <SplitView>
-        <SplitView.Pane>
-            <ListView/>
-        </SplitView.Pane>
-        
-    </SplitView>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView x:Name="ItemsList"
+                  ItemsSource="{x:Bind Items.CurrentItems, Mode=OneWay}"
+                  Grid.Column="0"
+                  MinWidth="320" Margin="5">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="viewModels:ItemViewModel">
+                    <TextBlock Text="{x:Bind Name, Mode=OneWay}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackPanel Grid.Column="1" Orientation="Vertical">
+
+        </StackPanel>
+    </Grid>
 </Page>

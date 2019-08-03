@@ -8,10 +8,10 @@ namespace SatisfactoryCalculator.Core
     public class ItemsDatabase
     {
         [DataMember(Name = "items")]
-        internal List<Item> Items = new List<Item> { };
+        public List<Item> Items { get; internal set; } = new List<Item> { };
 
         [DataMember(Name = "recipes")]
-        internal List<Recipe> Recipes = new List<Recipe> { };
+        public List<Recipe> Recipes { get; internal set; } = new List<Recipe> { };
 
         public IEnumerable<Item> FindItemsForSearchTerm(string searchTerm)
         {

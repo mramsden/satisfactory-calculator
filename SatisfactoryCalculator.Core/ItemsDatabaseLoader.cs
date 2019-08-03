@@ -4,11 +4,11 @@ using System.Runtime.Serialization.Json;
 
 namespace SatisfactoryCalculator.Core
 {
-    internal class ItemsDatabaseLoader
+    public class ItemsDatabaseLoader
     {
         private const string RESOURCE_NAME = "SatisfactoryCalculator.Core.Resources.items.json";
 
-        internal static ItemsDatabase Load()
+        public static ItemsDatabase Load()
         {
             var assembly = Assembly.GetAssembly(typeof(ItemsDatabaseLoader));
             using (var itemsFileStream = assembly.GetManifestResourceStream(RESOURCE_NAME))
