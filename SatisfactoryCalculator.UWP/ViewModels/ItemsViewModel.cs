@@ -1,5 +1,6 @@
 ﻿using SatisfactoryCalculator.Core;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace SatisfactoryCalculator.UWP.ViewModels
 {
@@ -10,7 +11,7 @@ namespace SatisfactoryCalculator.UWP.ViewModels
         public ItemsViewModel(ItemsDatabase itemsDatabase)
         {
             this.itemsDatabase = itemsDatabase;
-            foreach (var item in this.itemsDatabase.Items)
+            foreach (var item in this.itemsDatabase.Items.OrderBy(item => item.Name))
             {
                 var itemViewModel = new ItemViewModel(item);
                 currentItems.Add(itemViewModel);
