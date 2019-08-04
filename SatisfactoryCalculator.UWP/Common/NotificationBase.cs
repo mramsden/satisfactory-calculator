@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace SatisfactoryCalculator.UWP.ViewModels
+namespace SatisfactoryCalculator.UWP.Common
 {
-    public class NotificationBase : INotifyPropertyChanged
+    public class BindableBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -25,19 +25,19 @@ namespace SatisfactoryCalculator.UWP.ViewModels
             return true;
         }
 
-        protected void RaisePropertyChanged(string property)
+        protected virtual void RaisePropertyChanged(string property)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
         }
     }
 
-    public class NotificationBase<T> : NotificationBase where T : class, new()
+    public class BindableBase<T> : BindableBase where T : class, new()
     {
         protected T This;
 
-        public static implicit operator T(NotificationBase<T> thing) { return thing.This; }
+        public static implicit operator T(BindableBase<T> thing) { return thing.This; }
 
-        public NotificationBase(T thing = null)
+        public BindableBase(T thing = null)
         {
             This = (thing == null) ? new T() : thing;
         }

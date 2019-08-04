@@ -1,8 +1,9 @@
 ﻿using SatisfactoryCalculator.Core;
+using SatisfactoryCalculator.UWP.Common;
 
 namespace SatisfactoryCalculator.UWP.ViewModels
 {
-    public class ItemViewModel : NotificationBase<Item>
+    public class ItemViewModel : BindableBase<Item>
     {
         public ItemViewModel(Item item = null) : base(item) { }
 

@@ -1,11 +1,12 @@
 ﻿using SatisfactoryCalculator.Core;
+using SatisfactoryCalculator.UWP.Common;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace SatisfactoryCalculator.UWP.ViewModels
 {
-    public class ItemsViewModel : NotificationBase
+    public class ItemsViewModel : BindableBase
     {
         private readonly ItemsDatabase itemsDatabase;
 
@@ -47,12 +48,13 @@ namespace SatisfactoryCalculator.UWP.ViewModels
             }
         }
 
-        public ItemViewModel SelectedItem
+        public SelectedItemViewModel SelectedItem
         {
             get {
                 if (selectedIndex > -1)
                 {
-                    return currentItems[selectedIndex];
+                    var item = currentItems[selectedIndex];
+                    return new SelectedItemViewModel(itemsDatabase, item);
                 }
                 return null;
             }

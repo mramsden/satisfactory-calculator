@@ -511,7 +511,7 @@
             ]
         },
         {
-            "product": "heavy_module_frame",
+            "product": "heavy_modular_frame",
             "alternate": false,
             "quantity": 1,
             "ingredients": [
@@ -522,7 +522,7 @@
             ]
         },
         {
-            "product": "heavy_module_frame",
+            "product": "heavy_modular_frame",
             "alternate": true,
             "quantity": 3,
             "ingredients": [

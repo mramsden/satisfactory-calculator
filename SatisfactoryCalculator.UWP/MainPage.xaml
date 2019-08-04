@@ -8,6 +8,22 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <DataTemplate x:Key="ItemsListItemTemplate" x:DataType="viewModels:ItemViewModel">
+            <TextBlock Text="{x:Bind Name, Mode=OneWay}" />
+        </DataTemplate>
+
+        <DataTemplate x:Key="RecipesTitleTemplate">
+            <TextBlock x:Uid="RecipesTitle" Style="{StaticResource SubheaderTextBlockStyle}" /> 
+        </DataTemplate>
+        
+        <DataTemplate x:Key="RecipeTemplate" x:DataType="viewModels:RecipeViewModel">
+            <Grid>
+                <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="{x:Bind Name, Mode=OneWay}" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -28,21 +44,26 @@
                      Text="{x:Bind Items.SearchTerm, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
             <ListView x:Name="ItemsList"
                       Grid.Row="1"
+                      ItemTemplate="{StaticResource ItemsListItemTemplate}"
                       ItemsSource="{x:Bind Items.CurrentItems, Mode=OneWay}"
-                      SelectedIndex="{x:Bind Items.SelectedIndex, Mode=TwoWay}">
-                <ListView.ItemTemplate>
-                    <DataTemplate x:DataType="viewModels:ItemViewModel">
-                        <TextBlock Text="{x:Bind Name, Mode=OneWay}"/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                      SelectedIndex="{x:Bind Items.SelectedIndex, Mode=TwoWay}"/>
+
         </Grid>
 
-        <StackPanel Grid.Column="1" Orientation="Vertical" Padding="20, 10">
+        <Grid Grid.Column="1" Padding="20, 10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
             <TextBlock Text="{x:Bind Items.SelectedItem.Name, Mode=OneWay}"
-                       Style="{StaticResource HeaderTextBlockStyle}" />
-            <TextBlock x:Uid="RecipesTitle"
-                       Style="{StaticResource SubheaderTextBlockStyle}" />
-        </StackPanel>
+                       Style="{StaticResource HeaderTextBlockStyle}"
+                       Grid.Row="0" />
+            <GridView ItemsSource="{x:Bind Items.SelectedItem.Recipes, Mode=OneWay}"
+                      Visibility="{x:Bind Items.SelectedItem.HasRecipes, Mode=OneWay}"
+                      HeaderTemplate="{StaticResource RecipesTitleTemplate}"
+                      ItemTemplate="{StaticResource RecipeTemplate}"
+                      Grid.Row="1"/>
+        </Grid>
     </Grid>
 </Page>
